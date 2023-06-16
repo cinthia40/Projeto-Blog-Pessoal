@@ -2,7 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App.tsx'
 import './index.css'
-import Home from './pages/home.tsx'
+import Home from './pages/home/home.tsx'
+
 
 ReactDOM.render(
   <React.StrictMode>
