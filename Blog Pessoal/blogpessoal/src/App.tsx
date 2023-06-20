@@ -3,6 +3,7 @@ import Navbar from './components/estaticos/navbar/Navbar'
 import Footer from './components/estaticos/footer/Footer'
 import Home from './pages/home/home'
 import Login from './pages/login/Login'
+import CadastroUsuario from './pages/cadastroUsuario/CadastroUsuario'
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
@@ -17,7 +18,7 @@ function App() {
            <Route path="/" element={<Login />} />
           <Route path="/login" element={<Login />} />
           <Route path="/home" element={<Home />} />
-           {/*<Route path="/cadastro" element={<CadastroUsuario />} />*/}
+           <Route path="/cadastro" element={<CadastroUsuario />} />
         </Routes>
       </div>
       <Footer />
