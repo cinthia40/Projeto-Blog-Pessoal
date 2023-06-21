@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 .cursor{
     cursor: pointer;
     color: white;
@@ -5,4 +8,18 @@
 
 .text-decorator-none{
     text-decoration: none;
+}
+
+.nav-link {
+    font-family: 'Lilita One', cursive !important;
+    text-transform: uppercase;
+}
+
+.titulo-blog {
+    font-family: 'Lobster', cursive !important;
+    padding-right: 10px;
+}
+
+.nav {
+    box-shadow: none !important;
 }

@@ -24,7 +24,7 @@ function CadastroUsuario() {
         })
     useEffect(() => {
         if (userResult.id != 0) {
-            navigate.push("/login")
+            navigate('/login')
         }
     }, [userResult])
     
