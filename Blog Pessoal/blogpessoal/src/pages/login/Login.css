@@ -1,16 +1,38 @@
-.textos1{
+.textos1 {
     font-weight: bold !important;
- }
- 
- .imagem{
-     background-image: url(https://i.imgur.com/d5bMdDJ.jpg);
-     background-repeat: no-repeat;
-     width: 100vh;
-     min-height: 100vh;
-     background-size: cover;
-     background-position: center;
- }
- 
- .text-decorator-none{
-     text-decoration: none;
- }
+}
+
+.formulario {
+    background: pink;
+    padding: 50px;
+    border-radius: 30px;
+    border: 3px solid white;
+    box-shadow: 3px 3px 5px pink;
+    margin-top: 50px;
+}
+
+.login-link {
+    text-decoration: none;
+    color: deeppink;
+}
+
+a.login-link:hover {
+    color: #888888;
+}
+
+.logar {
+    background: #ff7db1 !important;
+    background: -moz-linear-gradient(top, #fcecf7 0%, #fba7c9 50%, #fd89b4 51%, #ff7db1 100%) !important;
+    background: -webkit-linear-gradient(top, #fcecf7 0%, #fba7c9 50%, #fd89b4 51%, #ff7db1 100%) !important;
+    background: linear-gradient(to bottom, #fcecf7 0%, #fba7c9 50%, #fd89b4 51%, #ff7db1 100%) !important;
+    font-weight: bold !important;
+    border: 2px solid white !important;
+    text-shadow: 1px 2px 3px #535353;
+}
+
+.entrar {
+    font-weight: bold !important;
+    color: #ff5f9f !important;
+    font-family: 'Lobster', cursive !important;
+    text-shadow: 0 0 3px white, 0 0 5px deeppink;
+}
